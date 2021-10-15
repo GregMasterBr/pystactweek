@@ -38,9 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'usuarios',
-    'cursos',
-    'blog',
+    'usuarios', #pystackweek - https://www.youtube.com/pythonando
+    'cursos', #pystackweek - https://www.youtube.com/pythonando
+    'blog', #fabio-ruicci - https://www.youtube.com/watch?v=Dzuiy-JNi-E
+    'polls.apps.PollsConfig', #hashtagprogramação - https://www.youtube.com/watch?v=DNGI5aD9MJs
+    
 ]
 
 MIDDLEWARE = [
